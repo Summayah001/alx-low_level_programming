@@ -2,11 +2,12 @@
 
 
 /**
- *
- *Return: Always 0 (Success)
- */
+ * 
+ * main - the programme starts and ends with the main
+ *Return:the main returns 0 upon completion and success
+*/
 int main(void)
 {
-	 printf("with proper grammar, but the outcome is a piece of art,\n");
-	 return (0);
+printf("with proper grammar, but the outcome is a piece of art,\n");
+return (0);
 }
