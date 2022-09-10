@@ -4,7 +4,7 @@
 /**
  * 
  * main - the programme starts and ends with the main
- *Return:the main returns 0 upon completion and success
+ * Return: the main returns 0 upon completion and succes
 */
 int main(void)
 {
