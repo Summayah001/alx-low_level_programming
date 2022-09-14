@@ -17,7 +17,7 @@ int main(void)
 
 
 	while (next < 4000000)
-		
+
 	{
 
 		next = a + b;
