@@ -33,7 +33,7 @@ int main(void)
 		{
 
 			printf(", ");
-	
+
 		}
 
 		i++;
@@ -47,4 +47,3 @@ int main(void)
 
 	return (0);
 }
-	
