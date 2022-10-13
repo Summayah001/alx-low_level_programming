@@ -15,6 +15,7 @@ int main(void)
 	long int a = 0, b = 1, next;
 
 
+
 	while (i < 50)
 
 	{
@@ -26,6 +27,7 @@ int main(void)
 		b = next;
 
 		printf("%lu", next);
+
 
 
 		if (i < 49)
@@ -44,6 +46,6 @@ int main(void)
 
 
 
-
 	return (0);
+
 }

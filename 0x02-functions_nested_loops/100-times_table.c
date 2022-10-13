@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * print_times_table - Prints the times table of the input,
- * starting with 0
- * @n: The value of the times table to be printed.
+ *print_times_table - prints time table
+ *@n : use in times table
+ *Return:void
  */
 
 void print_times_table(int n)
@@ -32,6 +32,12 @@ void print_times_table(int n)
 				_putchar('0' + rep / 10);
 				_putchar('0' + rep % 10);
 			}
+			else
+			{
+				_putchar('0' + rep / 100);
+				_putchar('0' + (rep - 100) / 10);
+				_putchar('0' + rep % 10);
+			}
 			if (b < n)
 			{
 				_putchar(',');
@@ -42,3 +48,4 @@ void print_times_table(int n)
 		a++;
 	}
 }
+

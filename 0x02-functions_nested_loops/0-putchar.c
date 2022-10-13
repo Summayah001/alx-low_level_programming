@@ -3,10 +3,9 @@
 #include <time.h>
 
 /**
- * * main-Entry point
+ * * main - Entry point
  * *
- * * Return:Always success
- * *
+ * * Return: Always success
  */
 int main(void)
 {
